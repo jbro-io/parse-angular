@@ -1,0 +1,24 @@
+<div class="hero-unit">
+	<div>
+		<h3>First Contact</h3>
+		<input type="text" ng-model="firstContact.firstName" />
+		<input type="text" ng-model="firstContact.lastName" />
+		<button ng-click="firstContact.save()">Save</button>
+		{{firstContactMessage}}
+	</div>
+
+	<div>
+		<h3>Create New Contact</h3>
+		<input type="text" ng-model="newContact.firstName" />
+		<input type="text" ng-model="newContact.lastName" />
+		<button ng-click="newContact.save()">Save</button>
+		{{newContactMessage}}
+	</div>
+
+	<div>
+		<h3>All Contacts</h3>
+		<ul>
+			<li ng-repeat="contact in allContacts">{{contact.firstName}} {{contact.lastName}}</li>
+		</ul>
+	</div>
+</div>
