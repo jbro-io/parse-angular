@@ -72,9 +72,9 @@ angular.module('ParseServices', [])
 			(function() {
 				var propName = fields[i];
 				Object.defineProperty(self, propName, {
-														get : function(){ return parseObject.get(propName); },
-													   	set : function(value){ parseObject.set(propName, value); }
-													});
+									get : function(){ return parseObject.get(propName); },
+									set : function(value){ parseObject.set(propName, value); }
+								      });
 			})();
 		}
 
