@@ -2,7 +2,7 @@ angular.module('ParseServices', [])
 
 .factory('ParseSDK', function(){
 	//initialize parse
-  	Parse.initialize("tJQ889YzDkLQJk8WR7Fg7IY8oLhTWWOqAAUnlGXy", "rZUnawvC0K9VCArdEiDhuy4WkBJa6OozVFlxgymB");
+  	Parse.initialize("bHFg1WL11No24JnQ52lKsXoiYXOJnfJUXhEizUZD", "b9mkopWAE3pnEFQ3GSnHaLIxMNhcbnUF02gsgPZ8");
 })
 
 .factory('ParseQuery', ['$q', '$rootScope', function ($q, $rootScope){
