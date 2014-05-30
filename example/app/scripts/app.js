@@ -3,6 +3,7 @@
 angular.module('ParseDemoApp', [
   'ngCookies',
   'ngSanitize',
+  'ngRoute',
   'ParseServices'
 ])
 .config(function ($routeProvider) {
