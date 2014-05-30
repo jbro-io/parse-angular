@@ -1,6 +1,8 @@
 # parse-angular
 Utilities for working with Parse.com data.
 
+Check out my [blog post](http://www.jonathanbroquist.com/integrating-parse-data-with-ng-model-in-angularjs/) for a more detailed walkthough.
+
 ## Create a new object
 ```
 //create new contact record from string
